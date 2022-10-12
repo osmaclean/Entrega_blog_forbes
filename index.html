@@ -14,27 +14,29 @@
 
 <body class="body">
 
-    <h1 class="fonte centro-txt">Blog de Teste - Fonte: Forbes</h1>
+    <h1 class="fonte centro-txt title-style">Página de Aprendizado de um Dev - Fonte: Forbes</h1>
+
+    <img class="logo" src="./logo.png">
 
     <!-- 1º Post Exemplo-->
 
 
     <section class="fonte centro-txt">
 
-        <img class="first-img" src="./PENSILVANIA.jpg">
-        <h2>
+        <img class="first-img img-first" src="./PENSILVANIA.jpg">
+        <h2 class="text-title">
             As faculdades preferidas dos mais ricos dos EUA
         </h2>
 
         <article>
-            <p>
+            <p class="text-p">
                 É possível estar entre os 400 norte-americanos mais ricos sem curso superior, mas a trajetória
                 mais provável passa por uma dessas instituições
             </p>
         </article>
 
 
-        <p>
+        <p class="text-autor">
             <em>
                 Escrito por: Conor Murray - 11/10/22 - Atualizado há 13 horas
             </em>
@@ -58,19 +60,19 @@
 
         <img class="second-img" src="./billionare.png">
 
-        <h2>
+        <h2 class="text-title">
             Bilionário de Boston está doando US$ 1 milhão por semana
         </h2>
 
         <article>
-            <p>
+            <p class="text-p">
                 Rob Hale está doando dinheiro para organizações sem fins lucrativos de base, a mais recente reviravolta
                 na filantropia bilionária
             </p>
         </article>
 
 
-        <p>
+        <p class="text-autor">
             <em>
                 Escrito por: John Hyatt - 10/10/22 - Atualizado há 1 dia
             </em>
@@ -93,30 +95,32 @@
     <section class="fonte centro-txt">
 
         <img class="third-img" src="./queijo.jpg">
-        <h2>
+        <h2 class="text-title">
             Pizza em risco: briga familiar leva bilionário do queijo à Justiça
         </h2>
 
         <article>
-            <p>
+            <p class="text-p">
                 A empresa do recluso James Leprino fornece 90% da muçarela para as pizzarias americanas
             </p>
         </article>
 
 
-        <p>
+        <p class="text-autor">
             <em>
                 Escrito por: Chloe Sorvino - 09/10/22 - Atualizado há 2 dias
             </em>
         </p>
 
+
         <a href="https://forbes.com.br/forbes-money/2022/10/pizza-em-risco-briga-familiar-leva-bilionario-do-queijo-a-justica/"
             target="_blank">
-
             <button class="third-button button-color">
+
                 <strong>
                     LEIA O ARTIGO COMPLETO
                 </strong>
+
             </button>
         </a>
 
@@ -128,17 +132,18 @@
             Deseja receber nossas notícias em primeira mão?
         </h1>
 
-        <p>
+        <p class="paragraph text-p">
             Basta você inserir o seu e-mail e clicar no botão!
         </p>
 
         <form>
             <label for="email"></label>
 
-            <input type="text" required id="email" name="email" placeholder="Digite o seu melhor e-mail aqui...">
+            <input class="input" type="text" required id="email" name="email"
+                placeholder="Digite o seu melhor e-mail aqui..."><br>
 
-            <button class="">
-                RECEBER AGORA
+            <button class="receber-agora">
+                <strong>RECEBER AGORA</strong>
             </button>
 
             </input>
@@ -146,6 +151,9 @@
         </form>
     </section>
 
+    <footer>
+        <p class="text-p-rodape"><em>Página feita por: Lucas Maclean ®</em></p>
+    </footer>
 
 </body>
 
